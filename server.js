@@ -12,10 +12,10 @@ app.get('/naaaz', function (req, res) {
   res.send('naaaz are requested and will be served here');
 });
 app.get('/naaz1', function (req, res) {
-res.send('naaaz1 are requested and will be served here');  
+res.send('naaaz1 are requested one time and will be served here');  
 });
 app.get('/naaz2', function (req, res) {
-res.send('naaaz2 are requested and will be served here');  
+res.send('naaaz2 are requested twice and will be served here');  
 });
 
 app.get('/ui/style.css', function (req, res) {
