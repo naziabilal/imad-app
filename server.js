@@ -12,7 +12,7 @@ app.get('/naaaz', function (req, res) {
   res.send('im requesting nd contents are');
 });
 app.get('/khan', function (req, res) {
-  res.send('im requesting nd contents are');
+  res.sendFile(path.join(__dirname, 'ui', 'khan.html'));
 });
 
 app.get('/ui/style.css', function (req, res) {
